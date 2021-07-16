@@ -1,4 +1,9 @@
-import zipfile
-print("This is a test file in python")
-with zipfile.ZipFile("test/test_dataset.zip", 'r') as zip_ref:
-    zip_ref.extractall(test)
+import pandas as pd
+
+print("Testing basic print function")
+
+t = pd.read_csv("test/test_dataset.csv")
+for i in t:
+    print(i)
+    
+
