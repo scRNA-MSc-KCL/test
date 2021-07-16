@@ -1,3 +1,4 @@
+pip install pandas
 import pandas as pd
 
 print("Testing basic print function")
