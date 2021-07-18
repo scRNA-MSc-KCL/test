@@ -13,7 +13,12 @@ for i in t:
     
 with zipfile.ZipFile("testzip.zip", 'r') as zip_ref:
     zip_ref.extractall()
-    
-    
+
+f = open("myfile.txt", "w")
+f.write("Woops! I have deleted the content!")
+f.close()
+
+f = open("myfile.txt", "r")
+print(f.read())
 
 
