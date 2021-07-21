@@ -2,6 +2,8 @@
 import zipfile
 import pandas as pd
 import scanpy as sc
+import tensorflow
+
 print("Testing basic print function")
 print("wanted to check if the update actuallly worked")
 
