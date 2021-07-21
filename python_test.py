@@ -1,6 +1,7 @@
 #python -m pip install pandas --user
 import zipfile
 import pandas as pd
+import scanpy as sc
 print("Testing basic print function")
 print("wanted to check if the update actuallly worked")
 
