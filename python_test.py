@@ -1,8 +1,14 @@
 #python -m pip install pandas --user
 
-!pip install pandas
-!pip install scanpy
-!pip install tensorflow
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+install(pandas)
+install(scanpy)
+install(tensorflow)
 
 import zipfile
 import pandas as pd
