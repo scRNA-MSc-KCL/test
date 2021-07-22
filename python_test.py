@@ -1,5 +1,7 @@
 #python -m pip install pandas --user
 
+conda activate scRNA
+
 import zipfile
 import pandas as pd
 import scanpy as sc
