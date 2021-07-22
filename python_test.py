@@ -1,4 +1,9 @@
 #python -m pip install pandas --user
+
+pip install python
+pip install scanpy
+pip install tensorflow
+
 import zipfile
 import pandas as pd
 import scanpy as sc
