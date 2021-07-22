@@ -1,6 +1,6 @@
 #python -m pip install pandas --user
 
-pip install python
+pip install pandas
 pip install scanpy
 pip install tensorflow
 
